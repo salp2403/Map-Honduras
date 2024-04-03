@@ -120,7 +120,7 @@ am5.ready(function() {
                     }
                 }
 
-                am5.net.load("../assets/ajax/"+currentMap+".json", chart).then(function (result) {
+                am5.net.load(""+currentMap+".json", chart).then(function (result) {
                     var geodata = am5.JSONParser.parse(result.response);
                     //alert(result.response);
                     var data = [];
