@@ -99,7 +99,7 @@ am5.ready(function() {
             function loadGeodata(country) {
 
                 // Default map
-                var defaultMap = "usaLow";
+                var defaultMap = "hn";
 
                 if (country == "US") {
                     chart.set("projection", am5map.geoAlbersUsa());
